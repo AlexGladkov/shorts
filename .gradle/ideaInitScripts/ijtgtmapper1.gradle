@@ -1,0 +1,12 @@
+ext.pathMapper = [:]
+ext.pathMapper.put("C:/Users/bob29/AppData/Local/JetBrains/Toolbox/apps/Fleet/ch-0/1.0.588/backend/plugins/gradle/lib/gradle-tooling-extension-impl.jar", "C:/Users/bob29/AppData/Local/JetBrains/Toolbox/apps/Fleet/ch-0/1.0.588/backend/plugins/gradle/lib/./gradle-tooling-extension-impl.jar")
+ext.pathMapper.put("C:/Users/bob29/AppData/Local/JetBrains/Toolbox/apps/Fleet/ch-0/1.0.588/backend/lib/3rd-party-rt.jar", "C:/Users/bob29/AppData/Local/JetBrains/Toolbox/apps/Fleet/ch-0/1.0.588/backend/lib/./3rd-party-rt.jar")
+ext.pathMapper.put("C:/Users/bob29/AppData/Local/JetBrains/Toolbox/apps/Fleet/ch-0/1.0.588/backend/plugins/gradle/lib/gradle-tooling-extension-api.jar", "C:/Users/bob29/AppData/Local/JetBrains/Toolbox/apps/Fleet/ch-0/1.0.588/backend/plugins/gradle/lib/./gradle-tooling-extension-api.jar")
+ext.pathMapper.put("C:/Users/bob29/AppData/Local/JetBrains/Toolbox/apps/Fleet/ch-0/1.0.588/backend/plugins/Kotlin/lib/kotlin-plugin.jar", "C:/Users/bob29/AppData/Local/JetBrains/Toolbox/apps/Fleet/ch-0/1.0.588/backend/plugins/Kotlin/lib/./kotlin-plugin.jar")
+ext.pathMapper.put("C:/Users/bob29/AppData/Local/JetBrains/Toolbox/apps/Fleet/ch-0/1.0.588/backend/lib/kotlin-stdlib-jdk8.jar", "C:/Users/bob29/AppData/Local/JetBrains/Toolbox/apps/Fleet/ch-0/1.0.588/backend/lib/./kotlin-stdlib-jdk8.jar")
+ext.pathMapper.put("C:/Users/bob29/AppData/Local/JetBrains/Toolbox/apps/Fleet/ch-0/1.0.588/backend/lib/external-system-rt.jar", "C:/Users/bob29/AppData/Local/JetBrains/Toolbox/apps/Fleet/ch-0/1.0.588/backend/lib/./external-system-rt.jar")
+ext.pathMapper.put("C:/Users/bob29/AppData/Local/JetBrains/Toolbox/apps/Fleet/ch-0/1.0.588/backend/lib/3rd-party.jar", "C:/Users/bob29/AppData/Local/JetBrains/Toolbox/apps/Fleet/ch-0/1.0.588/backend/lib/./3rd-party.jar")
+ext.pathMapper.put("C:/Users/bob29/AppData/Local/JetBrains/Toolbox/apps/Fleet/ch-0/1.0.588/backend/lib/util.jar", "C:/Users/bob29/AppData/Local/JetBrains/Toolbox/apps/Fleet/ch-0/1.0.588/backend/lib/./util.jar")
+ext.pathMapper.put("C:/Users/bob29/AppData/Local/JetBrains/Toolbox/apps/Fleet/ch-0/1.0.588/backend/plugins/gradle/lib/gradle-api-impldep-7.1.jar", "C:/Users/bob29/AppData/Local/JetBrains/Toolbox/apps/Fleet/ch-0/1.0.588/backend/plugins/gradle/lib/./gradle-api-impldep-7.1.jar")
+ext.pathMapper.put("<<target java executable path>>", "C:/Program Files/Java/jdk-16.0.1\\bin\\java.exe")
+ext.mapPath = { path -> pathMapper.get(path) ?: path }
